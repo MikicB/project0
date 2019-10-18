@@ -1,0 +1,91 @@
+$color: #EEEEEE;
+$font_family: 'Play' , sans serif;
+$hover: orange;
+
+body {
+	font-family: $font_family;
+	.container-fluid {
+	padding: 0px;
+}
+.inner {
+	text-align: center;
+}
+.jumbotron {
+	border-radius: 0;
+	position: relative;
+	background: url(../project0/digitron.jpg);
+	background-size: cover;
+}
+.jumbotron > .overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0, 0.4);
+	z-index: 1;
+}
+.jumbotron > .inner {
+	position: relative;
+	z-index: 2;
+}
+.jumb{
+	border-radius: 0;
+	position: relative;
+	background: url(../project0/usluge.jpg);
+	background-size: cover;
+}
+.display-1, .dis {
+	color: $color;
+	opacity: 0.7;
+}
+.usluge {
+	color: $color;
+	opacity: 0.7;
+}
+.grow:hover {
+	-webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+}
+.obracun {
+	position: relative;
+}
+.obracunplate {
+	position: absolute;
+  	top: 50%;
+  	left:50%;
+  	transform: translate(-50%,-50%);
+}
+.kontaktlink:link {
+	color: black;
+	opacity: 1;
+	
+
+  text-decoration: none;
+}
+.kontaktlink:visited {
+  
+    color: gray;
+    text-decoration:none ;
+}
+.kontaktlink:hover {
+     color:orange;
+
+     text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+
+.media {
+  	margin-top: 50px;
+            }
+.display-1 {
+  	font-size: 2em;
+            }
+.dis {
+  	font-size: inherit;
+            }
+
+}
+}
