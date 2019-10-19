@@ -1,7 +1,13 @@
 $color: #EEEEEE;
 $font_family: 'Play' , sans serif;
 $hover: orange;
-
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
 body {
 	font-family: $font_family;
 	.container-fluid {
@@ -58,19 +64,19 @@ body {
   	left:50%;
   	transform: translate(-50%,-50%);
 }
-.kontaktlink:link {
+.kontaktlink :link {
 	color: black;
 	opacity: 1;
 	
 
   text-decoration: none;
 }
-.kontaktlink:visited {
+.kontaktlink :visited {
   
     color: gray;
     text-decoration:none ;
 }
-.kontaktlink:hover {
+.kontaktlink :hover {
      color:orange;
 
      text-decoration: none;
@@ -88,4 +94,5 @@ body {
             }
 
 }
+
 }
